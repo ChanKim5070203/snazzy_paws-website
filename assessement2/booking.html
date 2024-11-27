@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Book an appointment with Snazzy Paws Grooming.">
+    <title>Snazzy Paws Grooming - Booking</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-warning text-white text-center py-3">
+        <h1>Snazzy Paws Grooming</h1>
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="booking.html">Booking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container my-5">
+        <h2 class="text-center">Book an Appointment</h2>
+        <form class="mt-4">
+            <div class="form-group">
+                <label for="owner-name">Owner's Name:</label>
+                <input type="text" id="owner-name" name="owner-name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="dog-name">Dog's Name:</label>
+                <input type="text" id="dog-name" name="dog-name" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="breed">Breed:</label>
+                <input type="text" id="breed" name="breed" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-warning mt-3">Submit</button>
+        </form>
+    </main>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Snazzy Paws Grooming | Open Monday - Saturday, 9 am - 5 pm</p>
+    </footer>
+</body>
+</html>
